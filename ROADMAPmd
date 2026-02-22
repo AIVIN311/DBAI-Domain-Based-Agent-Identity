@@ -1,0 +1,168 @@
+# DBAI Roadmap — From Draft to Infrastructure
+
+DBAI 的目標不是快速成為完整標準，而是逐步演化為一個
+**輕量、可互通、可被實作的 identity discovery convention**。
+
+本 roadmap 描述可能的技術、生態與社群演化路徑，而非固定計畫。
+
+---
+
+## Phase 0 — Draft & Concept Formation (v0.1)
+
+**現況**
+- Minimal spec
+- Agent Manifest schema
+- Resolver checklist
+- Extension schema discovery hint
+- Repo governance 與設計原則
+
+**目標**
+- 明確 identity-only core
+- 建立共同語言
+- 降低誤解（不是 DID、不是 SSI、不是平台身份）
+
+**成功指標**
+- Repo 可被 fork / 討論
+- 基本 resolver 能跑通
+- 社群理解 DBAI 定位
+
+---
+
+## Phase 1 — Early Experiments & Implementations
+
+**可能發生**
+- 個人或組織使用 domain 發布 agent manifest
+- 簡單 resolver library（CLI / SDK）
+- 不同 extension namespace 實驗
+- 初步 index crawler
+
+**目標**
+- 驗證 anchor-based discovery 可行
+- 收集實作經驗
+- 觀察 identity graph 初步形態
+
+**成功指標**
+- 多個 domain 發布 manifest
+- 至少兩種 resolver 實作
+- extension namespace emergent patterns
+
+---
+
+## Phase 2 — Interoperability & Operational Guidance
+
+**可能新增**
+- Key rotation 與 revocation best practices
+- 多 agent namespace delegation patterns
+- Cache / TTL guidance
+- Runtime endpoint role hints（informational）
+- Schema discovery practices
+
+**目標**
+- 提升可營運性
+- 減少實作歧異
+- 建立 shared operational language
+
+**成功指標**
+- 不同 resolver 解析同一 manifest 結果一致
+- 多 runtime agent 綁定案例
+- extension schema 出現跨專案 reuse
+
+---
+
+## Phase 3 — Ecosystem Emergence
+
+**預期現象**
+- Index 與 identity graph 自然長出
+- Agent directory / crawler / explorer
+- Schema 與 extension pattern 收斂
+- Domain-based namespace 成為語義治理單位
+
+**DBAI 角色**
+- 保持 identity core 穩定
+- 記錄 emergent practices
+- 避免過早語義化
+
+**成功指標**
+- 多個 index coexist
+- DBAI identity 被用於跨平台 actor linking
+- 社群開始討論 agent lifecycle 與 sovereignty
+
+---
+
+## Phase 4 — Stabilization Toward v1.0
+
+**可能行動**
+- 凍結 manifest 核心欄位
+- 凍結 resolver MUST/MUST NOT
+- 明確 extension namespace 原則
+- 文件化 operational best practices
+
+**不包含**
+- Capability taxonomy
+- Reputation model
+- Credential semantics
+
+**目標**
+- 形成 stable identity discovery core
+- 提供可引用規範
+- 保持生態演化空間
+
+**成功指標**
+- 多實作互通
+- 文獻或專案引用 DBAI
+- v1.0 被視為 minimal baseline
+
+---
+
+## Phase 5 — Long-Term Infrastructure Layer
+
+**長期可能性**
+- Agent identity 成為跨 runtime 預設概念
+- DBAI 作為 DID / wallet / platform ID 的 rendezvous layer
+- Identity graph 與 agent governance 研究
+- 與 policy / regulation 對話（責任與可追溯性）
+
+**DBAI 的持續角色**
+- 保持 minimal
+- 支援 interoperability
+- 避免被單一生態 capture
+
+---
+
+## Parallel Tracks
+
+### Technical Track
+- Resolver implementations
+- Schema evolution
+- Manifest lifecycle patterns
+
+### Ecosystem Track
+- Index experiments
+- Domain-based semantic communities
+- Agent directory / explorer
+
+### Research Track
+- Agent sovereignty
+- Identity graph topology
+- Governance 與責任邊界
+
+---
+
+## Non-Goals Across All Phases
+DBAI roadmap 不包含：
+- 建立中心化 registry
+- 定義 agent 能力分類
+- 競爭 SSI frameworks
+- 建立單一 index 或 directory
+
+---
+
+## Closing Perspective
+
+DBAI 的演化不取決於 spec 完整度，而取決於：
+- 是否能被實驗
+- 是否能與既有身份模型互通
+- 是否能保持 identity core 的穩定
+
+基礎設施往往不是被宣告為標準，而是逐漸成為預設。  
+DBAI 的 roadmap 反映這種漸進式成長。

@@ -1,0 +1,37 @@
+{
+  "id": "https://agent.algorithmicallocation.systems",
+  "anchor": "algorithmicallocation.systems",
+  "controllers": [
+    "did:example:algorithmicallocation-controller"
+  ],
+  "endpoints": {
+    "status": "https://agent.algorithmicallocation.systems/status",
+    "api": "https://agent.algorithmicallocation.systems/v1"
+  },
+  "keys": [
+    {
+      "id": "did:example:algorithmicallocation-controller#key-1",
+      "type": "JsonWebKey2020",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "x": "REPLACE_WITH_PUBLIC_KEY_X"
+      }
+    }
+  ],
+  "extensions": {
+    "https://algorithmicallocation.systems/ext/capability/v1": {
+      "schema": "https://algorithmicallocation.systems/.well-known/dbai/schemas/capability-v1.json",
+      "schema_hash": "sha256-REPLACE_WITH_HASH",
+      "data": {
+        "note": "opaque to DBAI; interpretable to consumers"
+      }
+    }
+  },
+  "proof": {
+    "type": "JWS",
+    "created": "2026-02-22T00:00:00Z",
+    "verificationMethod": "did:example:algorithmicallocation-controller#key-1",
+    "jws": "REPLACE_WITH_JWS"
+  }
+}

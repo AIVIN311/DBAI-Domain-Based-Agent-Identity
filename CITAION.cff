@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: "DBAI: Domain-Based Agent Identity"
+message: "If you use or reference DBAI, please cite this repository."
+type: software
+authors:
+  - family-names: "TBD"
+    given-names: "Maintainer"
+repository-code: "https://github.com/<your-org-or-username>/dbai"
+url: "https://github.com/<your-org-or-username>/dbai"
+abstract: >
+  DBAI (Domain-Based Agent Identity) defines a lightweight, anchor-based identity discovery
+  convention that uses domain namespaces as persistent rendezvous points for digital actors
+  and AI agents. The project focuses on minimal identity semantics, decentralized resolution,
+  and domain-scoped extension namespaces, enabling cross-platform actor discoverability
+  without imposing credential or capability models.
+keywords:
+  - identity
+  - agent identity
+  - decentralized identity
+  - DNS
+  - AI agents
+  - discovery
+license: "MIT"
+version: "0.1.0"
+date-released: "2026-02-22"
